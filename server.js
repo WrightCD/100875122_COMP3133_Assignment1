@@ -1,3 +1,6 @@
+//Carl Wright 100875122
+//COMP 3133 - Full Stack II Assignment
+
 const express = require('express');
 const mongoose = require('mongoose');
 const {ApolloServer} = require('apollo-server')
@@ -168,7 +171,8 @@ app.use('/graphql', graphqlHTTP({
 }));
 */
 
-mongoose.connect('mongodb://localhost:27017/fullstack2assignment', {
+
+mongoose.connect('mongodb://localhost:27017/comp3133_assignment1', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
